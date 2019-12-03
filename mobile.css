@@ -1,0 +1,45 @@
+
+/* .e { background: #DDD; } */
+/* 
+#e {
+    float: left;
+    background-color:green;
+}
+#f {
+
+    float: left;
+    background-color: yellow;
+}
+#g {
+
+    float: left;
+    background-color: rgb(255, 0, 119);
+}
+#h {
+    float: left;
+    background-color: blue;
+} */
+
+.all {
+    float: left;
+    outline: 1px solid aqua;
+/* margin: 1px; */
+}
+
+
+body{
+    margin: auto;
+    text-align: center;
+    background-color: aquamarine;
+    position: absolute;
+}
+.a{
+    float:left;
+
+}
+@media only screen and (max-width: 480px) {
+    body {
+      background-color: lightblue;
+
+  }
+}

@@ -1,0 +1,36 @@
+header{
+    height:75px;
+}
+aside {
+    height:150px;
+}
+#c {
+    height: 125px;
+}
+#d {
+    height: 125px;
+}
+footer{
+    clear:both;
+    height: 80px;
+}
+
+
+article{
+    line-height:250px;
+    height:250px;
+    float:left;
+    width: 50%;
+}
+.container{
+    margin: 0 auto;
+    max-width: 480px; 
+}
+
+@media(min-width: 768px){
+    body {
+        width: 960px;
+        text-align: center;
+        margin: auto;
+    }
+}

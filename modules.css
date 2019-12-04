@@ -4,17 +4,10 @@ header{
 aside {
     height:150px;
 }
-#c {
+section{
     height: 125px;
-}
-#d {
-    height: 125px;
-}
-footer{
-    clear:both;
-    height: 80px;
-}
 
+}
 
 article{
     line-height:250px;
@@ -23,8 +16,13 @@ article{
     width: 50%;
 }
 .container{
-    margin: 0 auto;
+    /* margin: 0 auto; */
     max-width: 480px; 
+}
+
+footer{
+    clear:both;
+    height: 80px;
 }
 
 @media(min-width: 768px){
@@ -33,4 +31,37 @@ article{
         text-align: center;
         margin: auto;
     }
+
+    header{
+        width:960;
+
+    }
+    aside {
+        width:200px;
+        height: 600px;
+        float:left;
+    }
+    section {
+        width: 380px;
+        height: 200px;
+        float:left;
+
+    }
+    #container{
+        max-width: 960px;
+    }
+    article {
+        width:190px;
+        height:250px;
+        /* float:left; */
+    }
+    #i{
+        /* width: 760px; */
+        float:left;
+        height: 150px;
+        /* margin-bottom: 7em; */
+        /* position:relative; */
+        
+    }
+
 }

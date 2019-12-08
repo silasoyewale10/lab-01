@@ -76,7 +76,25 @@ footer{
         height: 150px;
         /* margin-bottom: 7em; */
         /* position:relative; */
-        
+        /* background-color: purple; */
     }
 
+}
+
+@media only screen and (max-width: 500px) {
+    #a{
+        line-height: 70px;
+    }
+    #b{
+        line-height: 140px;
+    }
+    #c{
+        line-height: 120px;
+    }
+    #d{
+        line-height: 120px;
+    }
+    #i{
+        line-height: 250px;
+    }
 }

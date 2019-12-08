@@ -1,0 +1,53 @@
+
+header{
+    box-sizing:border-box;
+    text-align: center;
+    max-width: 480px;
+    margin: 0 auto;
+    border: 2px solid;
+}
+aside {
+    box-sizing:border-box;
+    text-align: center;
+    max-width: 480px;
+    margin: 0 auto;
+    border: 2px solid;
+}
+section{
+    box-sizing:border-box;
+    text-align: center;
+    max-width: 480px;
+    margin: 0 auto;
+    border: 2px solid;
+}
+article{
+    box-sizing:border-box;
+    text-align: center;
+    max-width: 480px;
+    margin: 0 auto;
+    border: 2px solid;
+}
+
+
+
+/* footer {
+    box-sizing:border-box;
+    text-align: center;
+    max-width: 480px;
+    margin: 0 auto;
+    border: 2px solid;
+} */
+
+
+
+
+@media(min-width: 768px){
+    header, aside, section, article, footer {
+        /* box-sizing:border-box;
+        text-align: center; */
+        max-width: 960px;
+        /* margin: 0 auto;
+        border: 2px solid; */
+    }
+    
+}

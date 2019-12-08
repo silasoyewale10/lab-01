@@ -1,0 +1,96 @@
+#a{
+    /* width: 480px;
+    height: 75px; */
+    background-color: grey;
+}
+#b{
+    /* width: 480px;
+    height: 150px; */
+    background-color: rgb(152, 14, 233);
+}
+#c{
+    /* width: 480px;
+    height: 125px; */
+    background-color: rgb(22, 24, 189);
+}
+#d{
+    /* width: 480px;
+    height: 125px; */
+    background-color: rgb(204, 19, 19);
+}
+#e{
+    /* width: 480px;
+    height: 125px; */
+    background-color: rgb(17, 15, 15);
+}
+#f{
+    /* width: 480px;
+    height: 125px; */
+    background-color: rgb(219, 203, 203);
+}
+#g{
+    /* width: 480px;
+    height: 125px; */
+    background-color: yellowgreen;
+}
+#h{
+    /* width: 480px;
+    height: 125px; */
+    background-color:green;
+}
+#i{
+    /* width: 480px;
+    height: 125px; */
+    background-color: rgb(204, 19, 19);
+}
+@media (min-width: 768px){
+    #a{
+        /* width: 480px;
+        height: 75px; */
+        background-color: grey;
+    }
+    #b{
+        /* width: 480px;
+        height: 150px; */
+        background-color: rgb(152, 14, 233);
+    }
+    #c{
+        /* width: 480px;
+        height: 125px; */
+        background-color: rgb(22, 24, 189);
+    }
+    #d{
+        /* width: 480px;
+        height: 125px; */
+        background-color: rgb(204, 19, 19);
+    }
+    #e{
+        /* width: 480px;
+        height: 125px; */
+        background-color: rgb(17, 15, 15);
+    }
+    #f{
+        /* width: 480px;
+        height: 125px; */
+        background-color: rgb(219, 203, 203);
+    }
+    #g{
+        /* width: 480px;
+        height: 125px; */
+        background-color: yellowgreen;
+    }
+    #h{
+        /* width: 480px;
+        height: 125px; */
+        background-color:green;
+    }
+    #i{
+        /* width: 480px;
+        height: 125px; */
+        background-color: rgb(204, 19, 19);
+        width:760px
+    }
+    /* footer{
+        width: 150px;
+    } */
+}

@@ -1,0 +1,67 @@
+header{
+    height:75px;
+}
+aside {
+    height:150px;
+}
+section{
+    height: 125px;
+
+}
+
+article{
+    line-height:250px;
+    height:250px;
+    float:left;
+    width: 50%;
+}
+.container{
+    /* margin: 0 auto; */
+    max-width: 480px; 
+}
+
+footer{
+    clear:both;
+    height: 80px;
+}
+
+@media(min-width: 768px){
+    body {
+        width: 960px;
+        text-align: center;
+        margin: auto;
+    }
+
+    header{
+        width:960;
+
+    }
+    aside {
+        width:200px;
+        height: 600px;
+        float:left;
+    }
+    section {
+        width: 380px;
+        height: 200px;
+        float:left;
+
+    }
+    #container{
+        max-width: 960px;
+    }
+    article {
+        width:190px;
+        height:250px;
+        /* float:left; */
+    }
+    #i{
+        /* width: 760px; */
+        float:left;
+        height: 150px;
+        /* margin-bottom: 7em; */
+        /* position:relative; */
+        
+    }
+
+}

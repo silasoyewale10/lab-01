@@ -1,101 +1,91 @@
+/* only colors */
+/* TABLET RIGHT HERE*/
 #a{
-    /* width: 480px;
-    height: 75px; */
-    background-color: grey;
+    
+    background-color: rgb(233, 8, 8);
+    
 }
 #b{
-    /* width: 480px;
-    height: 150px; */
-    background-color: rgb(152, 14, 233);
+    
+    background-color: rgb(214, 208, 218);
 }
 #c{
-    /* width: 480px;
-    height: 125px; */
-    background-color: rgb(22, 24, 189);
+    
+    background-color: rgb(189, 22, 147);
 }
 #d{
-    /* width: 480px;
-    height: 125px; */
-    background-color: rgb(204, 19, 19);
+    
+    background-color: rgb(14, 13, 13);
 }
 #e{
-    /* width: 480px;
-    height: 125px; */
-    background-color: rgb(17, 15, 15);
+    
+    background-color: rgb(178, 214, 18);
 }
 #f{
-    /* width: 480px;
-    height: 125px; */
+    
     background-color: rgb(219, 203, 203);
 }
 #g{
-    /* width: 480px;
-    height: 125px; */
-    background-color: yellowgreen;
+    
+    background-color: rgb(50, 182, 205);
 }
 #h{
-    /* width: 480px;
-    height: 125px; */
-    background-color:green;
+    
+    background-color:rgb(26, 41, 26);
 }
 #i{
-    /* width: 480px;
-    height: 125px; */
-    background-color: rgb(204, 19, 19);
+    
+    background-color: rgb(19, 136, 204);
 }
+
+/* Desktop */
 @media (min-width: 768px){
     #a{
-        /* width: 480px;
-        height: 75px; */
+       
         background-color: grey;
     }
     #b{
-        /* width: 480px;
-        height: 150px; */
+        
         background-color: rgb(152, 14, 233);
     }
     #c{
-        /* width: 480px;
-        height: 125px; */
+        
         background-color: rgb(22, 24, 189);
     }
     #d{
-        /* width: 480px;
-        height: 125px; */
+        
         background-color: rgb(204, 19, 19);
     }
     #e{
-        /* width: 480px;
-        height: 125px; */
+        
         background-color: rgb(16, 17, 15);
     }
     #f{
-        /* width: 480px;
-        height: 125px; */
+       
         background-color: rgb(219, 203, 203);
     }
     #g{
-        /* width: 480px;
-        height: 125px; */
+        
         background-color: yellowgreen;
     }
     #h{
-        /* width: 480px;
-        height: 125px; */
+        
         background-color:green;
     }
     #i{
-        /* width: 480px;
-        height: 125px; */
+        
         background-color: rgb(204, 19, 19);
-        width:760px
+        
     }
-    /* footer{
-        width: 150px;
-    } */
+   
+}
+
+#i{
+    width:760px;
 }
 
 
+/* MOBILE */
 @media only screen and (max-width: 500px) {
     /* body {
       background-color: green;
@@ -105,8 +95,8 @@
 
 
     #a{
-        /* width: 480px;
-        height: 75px; */
+        /* max-width: 480px; */
+        /*height: 75px; */
         background-color: rgb(238, 10, 116);
     }
     #b{
@@ -148,7 +138,70 @@
         /* width: 480px;
         height: 125px; */
         background-color: rgb(111, 187, 218);
-        width:760px
+        width:760px 
+    }
+
+    
+  }
+
+
+
+
+
+
+
+/* TABLET */
+  @media only screen and (max-width: 767px) {
+    /* body {
+      background-color: green;
+    } */
+
+
+    #a{
+        /* max-width: 480px; */
+        /*height: 75px; */
+        /* background-color: rgb(238, 10, 116); */
+    }
+    #b{
+        /* width: 480px;
+        height: 150px; */
+        /* background-color: rgb(243, 247, 9); */
+    }
+    #c{
+        /* width: 480px;
+        height: 125px; */
+        /* background-color: rgb(245, 63, 8); */
+    }
+    #d{
+        /* width: 480px;
+        height: 125px; */
+        /* background-color: wheat; */
+    }
+    #e{
+        /* width: 480px;
+        height: 125px; */
+        /* background-color: rgb(126, 245, 7); */
+    }
+    #f{
+        /* width: 480px;
+        height: 125px; */
+        /* background-color: rgb(8, 11, 235); */
+    }
+    #g{
+        /* width: 480px;
+        height: 125px; */
+        /* background-color: mediumseagreen; */
+    }
+    #h{
+        /* width: 480px;
+        height: 125px; */
+        /* background-color: cyan; */
+    }
+    #i{
+        /* width: 480px;
+        height: 125px; */
+        /* background-color: rgb(111, 187, 218); */
+        /* width:760px  */
     }
 
     

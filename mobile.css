@@ -1,24 +1,4 @@
 
-/* .e { background: #DDD; } */
-/* 
-#e {
-    float: left;
-    background-color:green;
-}
-#f {
-
-    float: left;
-    background-color: yellow;
-}
-#g {
-
-    float: left;
-    background-color: rgb(255, 0, 119);
-}
-#h {
-    float: left;
-    background-color: blue;
-} */
 
 .all {
     float: left;
@@ -37,19 +17,6 @@ body{
     float:left;
 
 }
-/* @media only screen and (max-width: 480px) {
-    body {
-      background-color: lightblue;
-
-  }
-  #c{
-      background-color: black;
-  } */
-  /* #h {
-      background-color: blueviolet;
-  } */
-  /* @media (max-width: 600px){
-        #a{
-            background-color: black;
-        }
-  } */
+/* #container {
+    display:flex;
+} */
